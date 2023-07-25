@@ -64,7 +64,7 @@ console.log("---------------------------Pedir un determinado disco--------------
 
 // Quisiera pedir un determinado disco y ver si se encuentra en stock 
 
-const discoQueQuiero = 'Alejado De La Red'.toUpperCase()//prompt("Que disco quiere elegir:" + "\n" + 'Esquivando Charcos' + "\n" + 'A Donde Me Lleva La Vida '+ "\n" + 'Bailando En Una Pata' + "\n" + 'Despedazado Por Mil Partes' + "\n" + 'La Renga' + "\n" + 'La Esquina Del Infinito' + "\n" + 'Insoportablemente Vivo' + "\n" + 'Documento Unico' + "\n" + 'Detonador De Sueños' + "\n" + 'Truenotierra' + "\n" + 'Algun Rayo' + "\n" + 'Pesados Vestigios' + "\n" + 'Alejado De La Red').toUpperCase(); //Consulto disco a elegir
+const discoQueQuiero = prompt("Que disco quiere elegir:" + "\n" + 'Esquivando Charcos' + "\n" + 'A Donde Me Lleva La Vida '+ "\n" + 'Bailando En Una Pata' + "\n" + 'Despedazado Por Mil Partes' + "\n" + 'La Renga' + "\n" + 'La Esquina Del Infinito' + "\n" + 'Insoportablemente Vivo' + "\n" + 'Documento Unico' + "\n" + 'Detonador De Sueños' + "\n" + 'Truenotierra' + "\n" + 'Algun Rayo' + "\n" + 'Pesados Vestigios' + "\n" + 'Alejado De La Red').toUpperCase(); //Consulto disco a elegir
 
 const stockDeDisco = discos.find (disco => disco.titulo === discoQueQuiero); // FIND Me dice sin importar si hay o no stock del disco
 
