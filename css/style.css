@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background: rgb(17,17,17);
+    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(41,37,37,1) 18%, rgba(24,14,14,1) 80%, rgba(51,51,51,1) 100%);
+    color:#ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    font-family: "Rock Salt", cursive;
+    font-weight: bold; 
+}
+
+.tienda section div {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;}
+
+  .tienda section div img {
+    width: 250px;
+    height: 250px;
+    border: rgb(117, 102, 102) 2px double;
+    margin: 7px;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .galeria section div{
+      justify-content: center;
+      img{
+          margin: 5px;
+      }
+  }
+}
