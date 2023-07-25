@@ -124,7 +124,3 @@ switch (metodoDePago) {
         console.log("No contamos con está opción de pago");
         alert("No contamos con está opción de pago")
 }
-
-
-
-
