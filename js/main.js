@@ -1,4 +1,4 @@
-//alert()
+/* //alert()
 
 const discos = [
     {disco: 1, titulo: "ESQUIVANDO CHARCOS", precio: 10, stock: 2},
@@ -64,7 +64,7 @@ console.log("---------------------------Pedir un determinado disco--------------
 
 // Quisiera pedir un determinado disco y ver si se encuentra en stock 
 
-const discoQueQuiero = prompt("Que disco quiere elegir:" + "\n" + 'Esquivando Charcos' + "\n" + 'A Donde Me Lleva La Vida '+ "\n" + 'Bailando En Una Pata' + "\n" + 'Despedazado Por Mil Partes' + "\n" + 'La Renga' + "\n" + 'La Esquina Del Infinito' + "\n" + 'Insoportablemente Vivo' + "\n" + 'Documento Unico' + "\n" + 'Detonador De Sueños' + "\n" + 'Truenotierra' + "\n" + 'Algun Rayo' + "\n" + 'Pesados Vestigios' + "\n" + 'Alejado De La Red').toUpperCase(); //Consulto disco a elegir
+// const discoQueQuiero = prompt("Que disco quiere elegir:" + "\n" + 'Esquivando Charcos' + "\n" + 'A Donde Me Lleva La Vida '+ "\n" + 'Bailando En Una Pata' + "\n" + 'Despedazado Por Mil Partes' + "\n" + 'La Renga' + "\n" + 'La Esquina Del Infinito' + "\n" + 'Insoportablemente Vivo' + "\n" + 'Documento Unico' + "\n" + 'Detonador De Sueños' + "\n" + 'Truenotierra' + "\n" + 'Algun Rayo' + "\n" + 'Pesados Vestigios' + "\n" + 'Alejado De La Red').toUpperCase(); //Consulto disco a elegir
 
 const stockDeDisco = discos.find (disco => disco.titulo === discoQueQuiero); // FIND Me dice sin importar si hay o no stock del disco
 
@@ -82,7 +82,7 @@ console.log("---------------------------Ahorros para compra de disco------------
 
 // FILTER Quiero saber cuales discos entran para poder abonar con una plata ahorrada
 
-const ahorros = Number(prompt("Ingrese sus ahorros")) // Esto puede ser un PROMPT para el usuario
+// const ahorros = Number(prompt("Ingrese sus ahorros")) // Esto puede ser un PROMPT para el usuario
 
 const ahorrosParaDisco = discos.filter (precio => precio.precio < ahorros );
 
@@ -123,4 +123,4 @@ switch (metodoDePago) {
     default: 
         console.log("No contamos con está opción de pago");
         alert("No contamos con está opción de pago")
-}
+} */
