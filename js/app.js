@@ -33,8 +33,6 @@ function albumElegido (cd) {
     }
     // console.log(datosDelAlbum)
 
-    // Pongo una condición, donde verifico el ID del albúm, corroborando que lo elegido no se encuentre y en caso de encontrarse, cambiar la cantidad del producto sin agregar un nueva fila al carrito
-
     carritoDeComprasLista.push(datosDelAlbum) // Cargo los datos del album elegido al array del Carrito de Compras
     //console.log (carritoDeComprasLista)
     presentacionCarrito () // Escribo en el HTML cada album que voy eligiendo
